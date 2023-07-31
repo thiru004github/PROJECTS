@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CACULATOR</title>
+</head>
+<body>
+    <style>
+        input{
+            box-shadow: inset;
+        }
+    </style>
+    <h1>CALCULATOR APPLICATION</h1><hr>
+
+    <h3>ENTER NUMBER 1:</h3>
+    <input type="number" id="v1">
+    <h3>ENTER NUMBER 2:</h3>
+    <input type="number" id="v2">
+    <hr>
+
+    <h3>ADDITION</h3>
+    <button id="b1" onclick="add()">+</button>
+    <p id="button1"></p><hr>
+
+    <h3>SUBTRACTION</h3>
+    <button id="b2" onclick="sub()">-</button>
+    <p id="button2"></p><hr>
+
+    <h3>MULTIPLICATION</h3>
+    <button id="b3" onclick="mul()">*</button>
+    <p id="button3"></p><hr>
+
+    <h3>DIVISION</h3>
+    <button id="b4" onclick="divi()">/</button>
+    <p id="button4"></p><hr>
+
+    <h3>MODULUS</h3>
+    <button id="b5" onclick="mod()">%</button>
+    <p id="button5"></p>
+
+    <script src="./calc.js"></script>
+
+</body>
+</html>
